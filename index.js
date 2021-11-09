@@ -135,7 +135,6 @@ function clearCheckboxes(event, cities, breweries, breweriesContainer){
   initializeMainSection(breweries, breweriesContainer);
 }
 
-
 //INITIALIZE PAGE FUNCTIONS
 function initializeAsideSection(breweries, breweriesContainer){
   const aside = createElementWithClass('aside', 'filters-section');
@@ -194,7 +193,6 @@ function renderBreweriesList(breweries, parentElement){
     parentElement.append(li); 
   });
 }
-
 
 function initializeMainSection(breweries, parentElement){
   while(parentElement.firstChild){

@@ -199,7 +199,7 @@ function renderBreweriesList(breweries, parentElement){
 function initializeMainSection(breweries, parentElement){
   while(parentElement.firstChild){
     parentElement.removeChild(parentElement.firstChild);
-  } 
+  }
   const h1 = createElementWithText('h1','List of Breweries');
   const headerSection = createElementWithClass('header', 'search-bar');
   const searchForm = createFormWithId('search-breweries-form');
